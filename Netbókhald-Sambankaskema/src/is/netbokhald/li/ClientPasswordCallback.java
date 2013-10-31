@@ -17,8 +17,8 @@ public class ClientPasswordCallback implements CallbackHandler {
 
         	if (pc.getUsage() == WSPasswordCallback.USERNAME_TOKEN) {
         		// set the password for our message.
-        		pc.setIdentifier("L5801740439B2B");
-        		pc.setPassword("L5820425");
+        		pc.setIdentifier("Change_2_AccountName");
+        		pc.setPassword("Change_2_AccountPassword");
         	}
         }
     }

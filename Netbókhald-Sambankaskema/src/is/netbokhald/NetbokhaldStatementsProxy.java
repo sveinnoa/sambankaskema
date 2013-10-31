@@ -59,7 +59,7 @@ public final class NetbokhaldStatementsProxy {
         Map<String,Object> outProps = new HashMap<String,Object>();
         outProps.put(WSHandlerConstants.ACTION, WSHandlerConstants.USERNAME_TOKEN);
         outProps.put(WSHandlerConstants.PW_CALLBACK_CLASS, ClientPasswordCallback.class.getName());                        
-        outProps.put(WSHandlerConstants.USER, "L5801740439B2B");
+        outProps.put(WSHandlerConstants.USER, "Change_2_AccountName");
 //        outProps.put(WSHandlerConstants.ACTION, "Signature");
 //        outProps.put(WSHandlerConstants.SIG_PROP_FILE, "client_sign.properties");
 
@@ -95,7 +95,7 @@ public final class NetbokhaldStatementsProxy {
     	{
         System.out.println("Invoking getAccountStatement...");
         is.netbokhald.li.AccountStatement _getAccountStatement_accountStatement = new is.netbokhald.li.AccountStatement();
-        _getAccountStatement_accountStatement.setAccount("525265880");
+        _getAccountStatement_accountStatement.setAccount("Change_2_AccountNumber");
         _getAccountStatement_accountStatement.setDateFrom(javax.xml.datatype.DatatypeFactory.newInstance().newXMLGregorianCalendar("2013-09-08T14:08:14.071Z"));
         _getAccountStatement_accountStatement.setDateTo(javax.xml.datatype.DatatypeFactory.newInstance().newXMLGregorianCalendar("2013-09-09T14:08:14.071Z"));
         _getAccountStatement_accountStatement.setRecordFrom(Long.valueOf(1));

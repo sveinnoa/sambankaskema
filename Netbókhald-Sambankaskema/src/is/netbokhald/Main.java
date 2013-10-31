@@ -14,9 +14,7 @@ import java.security.UnrecoverableKeyException;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 import java.util.Enumeration;
-/**
- * @author Muhammad Hamed  
- */
+
 public class Main {
        public static void main(String[] args) {
               
