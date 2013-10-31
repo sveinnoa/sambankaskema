@@ -3,6 +3,10 @@ sambankaskema
 
 Vefþjónustur fyrir sambankaskema íslenskra banka.
 
+Client er smíðaður með Apache CXF og CXF interceptors notað til að bæta við WSS4J þörfum sbr:
+
+https://cwiki.apache.org/confluence/display/CXF20DOC/WS-Security
+
 
     is.netbokhald - kóði til að prófa samskipti á móti Landsbankanum
 
